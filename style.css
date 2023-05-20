@@ -1,0 +1,57 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+}
+
+.button {
+    width: 66px;
+    padding: 20px;
+    margin: 0 3px;
+    border: 2 px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+    color: gray;
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #3d113d;
+    color: white;
+}
+
+.row {
+    margin: 8px 0;
+    cursor: pointer;
+    color: rgb(26, 4, 4);
+    display: inline-block;
+    transition-duration: 0.4s;
+}
+
+.row input {
+    width: 291px;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: rgb(26, 25, 25);
+}
+
+.heading {
+    color: brown;
+}
+
+.text-center {
+    color: rgb(26, 6, 39);
+    font-size: 30px;
+    font-style: initial;
+    display: block;
+    text-decoration-line: underline;
+}
+
+.row :hover {
+    color: rgb(27, 91, 41);
+}
